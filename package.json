@@ -1,26 +1,36 @@
-{ "name" : "vippy"
-, "description" : "Virtual IP Management and Failover"
-, "keywords" : [ "vip", "ha" ]
-, "version" : "0.0.6"
-, "preferGlobal" : true
-, "author" : { "name" : "Theo Schlossnagle" }
-, "repository" :
-  { "type" : "git"
-  , "url" : "git://github.com/postwait/vippy.git"
-  }
-, "bugs" :
-  { "url" : "http://github.com/postwait/vippy/issues"
-  }
-, "main" : "./index"
-, "bin":
-  { "vippyd": "./vippyd.js"
-  , "vippyctl": "./ctl.js"
-  }
-, "dependencies" : { "ife": ">=0.0.2", "posix": ">=1.0.0" }
-, "engines" : { "node" : "0.8 || 0.10" }
-, "licenses" :
-  [ { "type" : "BSD"
-    , "url" : "http://github.com/postwait/vippy/raw/master/vippy"
-    }
-  ]
+{
+    "name": "vippy",
+    "description": "Virtual IP Management and Failover",
+    "keywords": [
+        "vip",
+        "ha"
+    ],
+    "version": "0.0.6",
+    "preferGlobal": true,
+    "author": {
+        "name": "Theo Schlossnagle"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/postwait/vippy.git" 
+    },
+    "bugs": {
+        "url": "http://github.com/postwait/vippy/issues" 
+    },
+    "main": "./index",
+    "bin": {
+        "vippyd": "./vippyd.js",
+        "vippyctl": "./ctl.js" 
+    },
+    "dependencies": {
+        "ife": "https://github.com/quizlet/node-ife/archive/master.tar.gz",
+        "posix": ">=1.0.0"
+    },
+    "engines": {
+        "node": "0.8 || 0.10"
+    },
+    "licenses": [{
+        "type": "BSD",
+        "url": "http://github.com/postwait/vippy/raw/master/vippy"
+    }]
 }
