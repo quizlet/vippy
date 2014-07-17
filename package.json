@@ -5,7 +5,7 @@
         "vip",
         "ha"
     ],
-    "version": "0.0.6",
+    "version": "0.0.7",
     "preferGlobal": true,
     "author": {
         "name": "Theo Schlossnagle"
@@ -23,7 +23,7 @@
         "vippyctl": "./ctl.js" 
     },
     "dependencies": {
-        "ife": "https://github.com/quizlet/node-ife/archive/master.tar.gz",
+        "ife": ">=0.0.6",
         "posix": ">=1.0.0"
     },
     "engines": {
